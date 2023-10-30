@@ -37,3 +37,17 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+# Print multiple values in a single function
+print(x, y, z)
+
+# Function
+def myfunc():
+ 	print("My fruit list: " + x, y, z)
+ 	
+myfunc()
+
+# Use the random module to generate random numbers
+import random
+print(random.randrange(1, 10))
+

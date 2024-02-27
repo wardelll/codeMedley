@@ -74,3 +74,7 @@ print(mylist)
 # Case insensitive sort
 mylist.sort(key = str.lower)
 print(mylist)
+
+#copy list
+mylist2 = mylist.copy()
+print(mylist2)

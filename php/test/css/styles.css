@@ -1,0 +1,22 @@
+body {
+    background: #333;
+    height: 100%;
+}
+
+#content div {
+    margin: 20px;
+    min-height: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+    background: #fff;
+    padding:20px;
+    }
+
+#content div:nth-child(odd) {
+    border: 4px blue solid;
+    width: 75%;
+}
+#content div:nth-child(even) {
+    border: 4px red solid;
+    width: 75%;
+    margin-left:20%;
+}
